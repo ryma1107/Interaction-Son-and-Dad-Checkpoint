@@ -1,0 +1,11 @@
+<div class="row" [style.background-color]="colorSon">
+
+  <div class="col-6">
+    <p>Je suis le père!</p>
+  </div>
+
+  <div class="col-6">
+    <app-fils (SendDataToPere)="ColorObtained($event)"></app-fils>
+  </div>
+
+</div>
